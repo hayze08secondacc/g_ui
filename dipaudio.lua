@@ -8,8 +8,8 @@
 HOOKVZ (public audio script)
 ]]--
 local locals={}
-locals.remote_url="https://www.dropbox.com/scl/fi/09xe1osyvm67qcsyepfuy/isolation.mp3?rlkey=t497xl6sht8jzeqo7hjeeq3cy&st=3xjty2qx&dl=1"
-locals.local_filename="isolation.mp3"
+locals.remote_url="https://www.dropbox.com/scl/fi/fqebcte62rjzsnb306muw/abllremix.mp3?rlkey=b4954b1cb66m0w4nr8te1gnhe&st=72xcbzd3&dl=1"
+locals.local_filename="abllremix.mp3"
 locals.http_request_fn=(syn and syn.request)or(http and http.request)or request or http_request or(function(opts)error("no http request function")end)
 locals.writefile_fn=writefile or write_file or(syn and syn.io.write_file)
 locals.isfile_fn=isfile or is_file or(syn and syn.io.is_file)
